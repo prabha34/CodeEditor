@@ -1,36 +1,54 @@
-**CodeCast - Real-time Code Collaboration**
-CodeCast is a real-time code collaboration web application that allows multiple users to collaborate on code in the same virtual room.
-It's built using the MERN (MongoDB, Express.js, React, Node.js) stack and Socket.IO for real-time communication.
 
+# 🚀 CodeCast - Real-Time Code Collaboration Platform
 
-Features
-Create or join a virtual "room" by entering a room ID.
-Set your username to identify yourself in the room.
-Real-time code collaboration with other users in the same room.
-Changes made by one user are instantly reflected on all connected clients.
-Code highlighting and editor customization options.
-Technologies Used
-Express.js: Handling API requests.
-React: Building the front-end interface.
-Node.js: Running the server.
-Socket.IO: Enabling real-time communication.
-uuid: Generating unique room IDs.
-CodeMirror: Providing the code editor.
-Usage
-Open the CodeCast live demo.
-Enter a Room ID or generate a new one.
-Set your username.
-Start collaborating with others in the same room.
-Development
-If you want to run CodeCast locally or contribute to its development, follow these steps:
+**CodeCast** is a real-time collaborative code editor that lets multiple users edit code together in one virtual room. It's built with the **MERN stack** and leverages **Socket.IO** for low-latency, real-time syncing between clients.
 
-Clone the repository:
+> Think Google Docs for code – live, fast, and effortless.
 
+---
+https://1drv.ms/u/c/8ade18a7000dd77f/Edvl6OyMppRLmgD31pDrcEABKTYd5EY_G87otj3lWyWiQg?e=iZFRfF
+
+## 🌟 Features
+
+- 🔐 **Create/Join Rooms** with a unique Room ID
+- 🧑‍💻 **Set Your Username** to identify collaborators
+- ⚡ **Real-Time Code Sync** – updates appear instantly for all users
+- 🎨 **Syntax Highlighting** via CodeMirror
+- 🧠 **Editor Customizations** for theme and language preferences
+- 💬 Instant awareness of who’s editing what
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology     | Purpose                        |
+|----------------|--------------------------------|
+| **MongoDB**    | Database (for future extensions) |
+| **Express.js** | API Server                     |
+| **React.js**   | Frontend UI                    |
+| **Node.js**    | Backend Runtime                |
+| **Socket.IO**  | Real-time communication        |
+| **uuid**       | Generate unique Room IDs       |
+| **CodeMirror** | In-browser code editor         |
+
+---
+<img width="1918" height="1021" alt="image" src="https://github.com/user-attachments/assets/261a949e-62b4-4f35-86a9-f046d072f99e" />
+## 🚦 How to Use
+
+1. 🔗 Open the live demo *(URL here if hosted)*  
+2. 🎯 Enter a Room ID or click **"Create New Room"**
+3. ✍️ Set your username
+4. 💻 Start coding together in real time with others in the same room
+
+---
+
+## 🧑‍💻 Development Setup
+
+Follow these steps to set up CodeCast locally:
+
+### 🔄 Clone the Repo
+
+```bash
 git clone https://github.com/yourusername/codecast.git
 cd codecast
-Install dependencies:
 
-npm install
-Start the development server:
-
-npm start

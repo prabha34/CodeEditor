@@ -5,8 +5,6 @@
 
 > Think Google Docs for code – live, fast, and effortless.
 
----
-https://1drv.ms/u/c/8ade18a7000dd77f/Edvl6OyMppRLmgD31pDrcEABKTYd5EY_G87otj3lWyWiQg?e=iZFRfF
 
 ## 🌟 Features
 
